@@ -70,7 +70,7 @@ class _GameAppState extends State<GameApp> {
                                   ),
                               PlayState.gameOver.name: (context, game) =>
                                   const OverlayScreen(
-                                    title: 'G A M E   O V E R',
+                                    title: 'G A M E    O V E R',
                                     subtitle: 'Tap to Play Again',
                                   ),
                               PlayState.won.name: (context, game) =>
